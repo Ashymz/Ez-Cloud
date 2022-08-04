@@ -1,0 +1,472 @@
+body{
+   background-color: #318ccd !important;
+}
+/* Nav-Bar*/
+#nav-list{
+    margin-left: 13cm;
+
+}
+.nav-item{
+  margin: 10px;;
+}
+.navbar-brand{
+    margin-right: -3rem !important;
+    font-size: 2.25rem !important;
+    font-weight: 800;
+}
+a {
+    color: #ffffff !important;
+    text-decoration: none;
+}  
+
+.nav-link {
+    color: #506690;
+ 
+
+}
+.nav-link:hover {
+    color: #fcdb1c !important;
+    transition: 1s ease;
+    border-bottom: 1px solid orange;
+    
+}
+.span{
+    color: orange;
+}
+/* End of Nav-Bar*/
+
+/* Home*/
+#h2_{
+    font-size: 4rem ;
+    font-weight: bold;
+   
+}
+#p_{
+    margin-top: 32px;
+    opacity: 0.9;
+}
+.input-group{
+    width: 447px !important;
+}
+
+.form-control{
+    border-radius: 20px 0px 0px 20px !important;
+    border: none !important;
+ 
+}
+.btn_{
+    border: none;
+    border-radius: 0px 20px 20px 0px !important;
+}
+/* End of Home*/
+
+/*Cards*/
+#h1_{
+    text-align: center;
+    font-size: 37px;
+    font-weight: 800;
+    color: #318ccd;
+}
+#ct_{
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+#h5_{
+    font-size: 19px;
+}
+
+#btn_{
+    border: none;
+}
+
+#mock_{
+    width: 60px;
+    height: 55px;
+}
+#mock_1{
+    width: 60px;
+    height: 55px;
+}
+
+#btn_1{
+    border: none;
+    background: none;
+    font-size: 60px;
+    color: #00f3ff;
+    padding-right: 35px;
+}
+
+#btn_2{
+    border: none;
+    background: none;
+    font-size: 60px;
+    color: orange;
+}
+/*End of Card*/
+
+/*Companies*/
+#h1__{
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+}
+#img_{
+    width: 40rem;
+    margin-left: -7cm;
+    padding-top: 40px;
+}
+.num_{
+
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 50%;
+    padding-top: 13px;
+    padding-left: 14px;
+    width: 47px;
+    height: 46px;
+    margin-right: 1rem;
+    font-weight: 800;
+    color: coral;
+}
+
+#p_1{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.t_{
+        width: 100px;
+        margin-top: -231px;
+        transform: rotate3d(2, 27, 0, 132deg);
+}
+
+
+/*End of Companies*/
+
+/*Review*/
+#b_{
+    border-radius: 20px;
+}
+#b_:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY( -3px);
+    transition: 1s;
+}
+
+#p1_{
+    color: #ffffff;
+}
+
+#pr_{
+    color: #318ccd;
+}
+
+#hc_{
+    color: #050d9cc8;
+}
+/*End Of Review*/
+
+/*Pricing*/
+#btn__2{
+    width: 150px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 24px;
+}
+
+#btn__1{
+    width: 150px;
+    border-radius: 24px;
+    margin-right: 20px;
+    
+}
+
+#btn__1:hover{
+    transition: 1s;
+    transform: translateY(-3px);
+}
+
+#btn__2:hover{
+    background-color: rgb(9, 145, 242);
+    color: #ffff;
+    transition: 1s;
+    transform: translateY( -3px);
+
+}
+
+.t1_{
+    float: right;
+    width: 83px;
+    transform: rotate3d(1, 1, 1, 45deg);
+    margin-top: -95px;
+    margin-right: 88px;
+}
+
+#h6_{
+    background: #093578ed;
+    border-radius: 9px 9px 0px 0px;
+    padding: 10px;
+    font-weight: 800;
+    color: white;
+}
+ #f_{
+    font-size: 15px;
+    color: #050d9cc8;
+ }
+
+ #ul_{
+    text-align: left;
+    padding-top: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #093578ed;
+}
+
+#sm_{
+    background-color: orange;
+    color: white;
+}
+ 
+#h__{
+    color: white;
+}
+#f__{
+    color: white;
+    font-size: 15px;
+
+}
+#pv_{
+    color: white;
+}
+
+#ul__{
+    text-align: left;
+    padding-top: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    padding-bottom: 11px;
+}
+
+#ul_1{
+    padding-bottom: 30px;
+    text-align: left;
+    padding-top: 18px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#ul_2{
+    text-align: left;
+    padding-top: 8px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+
+
+.pricingTable {
+    text-align: center;
+    background: #fff;
+    margin: 0 -15px;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: all .5s ease 0s
+
+}
+ .pricingTable:hover{
+    transform:translateX(-5px);
+    transition: 1s;
+ }
+
+.pricingTable .pricingTable-header i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .price-value {
+    font-size: 35px;
+    color: #ff9624;
+    transition: all .5s ease 0s;
+    font-weight: 800;
+}
+
+.pricingTable .month {
+    display: block;
+    font-size: 14px;
+    color: #cad0de
+}
+
+.pricingTable .heading {
+    font-size: 30px;
+    color: #093578ed;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.pricingTable .pricingTable-signup a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 9px 67px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: #050d9cc8;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+}
+
+@media screen and (max-width:990px) {
+    .pricingTable {
+        margin: 0 0 20px
+    }
+    
+    .name_{
+        margin: 10px;
+            margin-left: 13px;
+            border: none;
+            background: lightblue;
+            width: 400px;
+            height: 60px;
+            color: white;
+            display: table;
+            border-radius: 20px;
+        }
+    }
+
+
+/*End of Pricing*/
+
+/*Connect*/
+#pt_1{
+    padding: 79px;
+    color: white;
+}
+
+.btn_6{
+    width: 204px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color: #318ccd;
+    color: white;
+}
+
+.btn_6:hover{
+   background: #37a4f1;
+   transition: 2s ease;
+}
+
+#span{
+    color: 318ccd;
+}
+
+.h3__{
+    font-size: 33px;
+        font-weight: 700;
+}
+
+#img_{
+    width: 520px;
+}
+/*End of Connect*/
+
+/*Contact*/
+.btn_7 {
+    width: 204px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    margin: 40px;
+}
+
+#h1_1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 800;
+    color: #318ccd;
+}
+
+.name_{
+    margin: 10px;
+    margin-left: -233px;
+    border: none;
+    background: lightblue;
+    width: 412px;
+    height: 60px;
+    color: white;
+    border-radius: 20px;
+}
+
+.mail_{
+    margin: 10px;
+    margin-right: -233px;
+    border: none;
+    background: lightblue;
+    width: 412px;
+    height: 60px;
+    color: white;
+    border-radius: 20px;
+}
+
+.comment_{
+    border: none;
+    background: lightblue;
+    width: 23cm;
+    padding-bottom: 120px;
+    color: white;
+    border-radius: 20px;
+}
+/*End of Contact*/
+
+/*Footer*/
+#bg__{
+    background-color: rgba(71, 60, 229, 0.756);
+}
+
+#a_{
+    text-decoration: none;
+}
+/*End Of Footer*/
+@media screen and (max-width: 896px) {
+    .t_ {
+        display: none;
+    }
+
+    .name_ {
+        margin: 10px;
+        margin-left: 13px;
+        border: none;
+      
+        width: 368px;
+        height: 60px;
+        color: white;
+        display: table;
+      
+    }
+
+    .mail_ {
+        
+        margin-right: 3px;
+        border: none;
+        width: 368px;
+        height: 60px;
+        
+    }
+
+    .comment_ {
+        border: none;
+        width: 10cm;
+        padding-bottom: 120px;
+      
+    }
+}
