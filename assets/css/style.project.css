@@ -446,7 +446,6 @@ a {
         margin: 10px;
         margin-left: 13px;
         border: none;
-      
         width: 368px;
         height: 60px;
         color: white;
@@ -469,4 +468,7 @@ a {
         padding-bottom: 120px;
       
     }
+        .t1_{
+            display: none;
+        }
 }
