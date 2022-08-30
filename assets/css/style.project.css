@@ -33,6 +33,15 @@ a {
 .span{
     color: orange;
 }
+
+#img__
+{ 
+    width: 42px;
+    height: 32px;
+    margin-right: -6px;
+    padding-bottom: 5px;
+}
+
 /* End of Nav-Bar*/
 
 /* Home*/
