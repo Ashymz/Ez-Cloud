@@ -99,7 +99,7 @@ a {
 }
 
 .Big-circle{
-    
+    /*
         color: white;
         background-color: white;
         border-radius: 50%;
@@ -109,6 +109,7 @@ a {
         height: 770px;
         opacity: 0.1;
         margin-left: 482px;
+    */
 }
 /* Home*/
 #h2_{
@@ -168,12 +169,13 @@ a {
 }
 
 #mock_{
-    width: 60px;
-    height: 55px;
+    width: 100px;
+    height: 62px;
 }
+
 #mock_1{
-    width: 60px;
-    height: 55px;
+    width: 84px;
+    height: 62px;
 }
 
 #btn_1{
@@ -226,9 +228,8 @@ a {
 }
 
 .t_{
-        width: 100px;
-        margin-top: -231px;
-        transform: rotate3d(2, 27, 0, 132deg);
+        margin-top: -276px;
+        
 }
 .white-line{
     color: white;
@@ -238,9 +239,26 @@ a {
     margin: 8px;
     opacity: 0.7;
 }
+
+.hr__{
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 53px;
+    transform: rotate(90deg);
+    margin-left: -16px;
+    margin-top: 33px;
+    opacity: 0.6;
+}
+
 /*End of Companies*/
 
 /*Review*/
+#rating_{
+    float: right;
+    margin-top: -118px;
+}
+
 #b_{
     border-radius: 20px;
     background-color: #fdad4d;
@@ -294,13 +312,10 @@ a {
 
 .t1_{
     float: right;
-    width: 83px;
-    transform: rotate3d(1, 1, 1, 45deg);
-    margin-right: 88px;
-    border: 6px solid white;
-    margin-top: -55px;
-    height: 50px;
-    border-radius: 5px;
+    width: 165px;
+    margin-right: 99px;
+    margin-top: -101px;
+    height: 109px;
 }
 
 #h6_{
@@ -445,7 +460,7 @@ a {
 
 @media screen and (max-width:990px) {
     .pricingTable {
-        margin: 0 0 20px
+        margin: 0 0 20px;
     }
     
     .name_{
@@ -587,6 +602,12 @@ a {
         margin-top: -195px;
         border-radius: 50px;
 }
+
+.comment_::placeholder {
+    padding-left: 10px !important;
+
+}
+
 @media screen and (max-width: 896px) {
     .t_ {
         display: none;
@@ -634,4 +655,20 @@ a {
     margin-top: -333px;
 
     }
+
+    #rating_{
+        display: none;
+    }
+
+    .hr__{
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 127px;
+    transform: rotate(90deg);
+    margin-left: -53px;
+    margin-top: 71px;
+    opacity: 0.6;
+}
+
 }
