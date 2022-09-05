@@ -97,20 +97,7 @@ a {
     
         
 }
-
-.Big-circle{
-    /*
-        color: white;
-        background-color: white;
-        border-radius: 50%;
-        width: 62%;
-        margin: auto;
-        margin-top: -734px;
-        height: 770px;
-        opacity: 0.1;
-        margin-left: 482px;
-    */
-}
+  
 /* Home*/
 #h2_{
     font-size: 4rem ;
@@ -653,7 +640,6 @@ a {
     padding-top: -14px;
     margin: -16px;
     margin-top: -333px;
-
     }
 
     #rating_{
