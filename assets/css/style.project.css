@@ -1,19 +1,39 @@
 body{
-   background-color: #318ccd !important;
+   background-color: #4b7cd7!important;
+   
 }
+
+  .my-shape {
+      position: absolute;
+      background-color: #fdad4d;
+      height: 100px;
+      width: 78%;
+      right: 8%;
+      margin: -1px;
+      margin-top: 7px;
+      border-radius: 0px 68px 0 0;
+      transform: rotateZ(357deg);
+  }
+
 /* Nav-Bar*/
 #nav-list{
     margin-left: 13cm;
-
 }
+.navbar-nav{
+    color: #fff;
+    font-weight: 600;
+}
+
 .nav-item{
   margin: 10px;;
 }
+
 .navbar-brand{
     margin-right: -3rem !important;
     font-size: 2.25rem !important;
     font-weight: 800;
 }
+
 a {
     color: #ffffff !important;
     text-decoration: none;
@@ -21,17 +41,25 @@ a {
 
 .nav-link {
     color: #506690;
- 
 
 }
-.nav-link:hover {
-    color: #fcdb1c !important;
-    transition: 1s ease;
+
+#home_{
+    margin-left: -60px;
     border-bottom: 1px solid orange;
+    color: orange !important;
+
+}
+
+.nav-link:hover {
+    color: #fdad4d!important;
+    transition: 1s ease;
+    border-bottom: 1px solid #fdad4d;
     
 }
+
 .span{
-    color: orange;
+    color: #fdad4d;
 }
 
 #img__1
@@ -42,30 +70,79 @@ a {
     padding-bottom: 5px;
 }
 
+#btn_nav{
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 12px;
+    background-color: #fdad4d !important;
+    color: white;
+
+}
+
+
+
 /* End of Nav-Bar*/
 
+.Faded-circle{
+    color: white;
+    border-radius: 50%;
+    width: 24%;
+    height: 44%;
+    border: 2px solid;
+    background-color: white;
+    opacity: 0.1;
+    margin-top: -186px;
+    padding: 128px;
+    margin-left: 66px;
+    
+        
+}
+
+.Big-circle{
+    
+        color: white;
+        background-color: white;
+        border-radius: 50%;
+        width: 62%;
+        margin: auto;
+        margin-top: -734px;
+        height: 770px;
+        opacity: 0.1;
+        margin-left: 482px;
+}
 /* Home*/
 #h2_{
     font-size: 4rem ;
     font-weight: bold;
+    
    
 }
 #p_{
     margin-top: 32px;
     opacity: 0.9;
+    
 }
 .input-group{
     width: 447px !important;
 }
 
 .form-control{
-    border-radius: 20px 0px 0px 20px !important;
+    border-radius: 20px 20px 20px 20px !important;
     border: none !important;
+    margin-right: -5px;
+    z-index: 10;
+    
+    
  
 }
 .btn_{
     border: none;
-    border-radius: 0px 20px 20px 0px !important;
+    border-radius: 20px 20px 20px 20px !important;
+    color: white;
+    background-color: #fdad4d;
+    padding-left: 20px;
+    z-index: 10;
+    margin-left: -30px;
 }
 /* End of Home*/
 
@@ -75,6 +152,7 @@ a {
     font-size: 37px;
     font-weight: 800;
     color: #318ccd;
+    /*font-family: cursive;*/
 }
 #ct_{
     font-size: 15px;
@@ -102,8 +180,9 @@ a {
     border: none;
     background: none;
     font-size: 60px;
-    color: #00f3ff;
+    color: #c0e0fe;
     padding-right: 35px;
+    cursor: not-allowed;
 }
 
 #btn_2{
@@ -111,6 +190,7 @@ a {
     background: none;
     font-size: 60px;
     color: orange;
+    cursor: not-allowed;
 }
 /*End of Card*/
 
@@ -121,7 +201,7 @@ a {
     font-weight: 800;
 }
 #img_{
-    width: 40rem;
+    width: 650px !important;
     margin-left: -7cm;
     padding-top: 40px;
 }
@@ -134,7 +214,7 @@ a {
     padding-left: 14px;
     width: 47px;
     height: 46px;
-    margin-right: 1rem;
+    margin-right: 2rem;
     font-weight: 800;
     color: coral;
 }
@@ -150,13 +230,20 @@ a {
         margin-top: -231px;
         transform: rotate3d(2, 27, 0, 132deg);
 }
-
-
+.white-line{
+    color: white;
+    border: 2px solid;
+    width: 3px;
+    height: 47px;
+    margin: 8px;
+    opacity: 0.7;
+}
 /*End of Companies*/
 
 /*Review*/
 #b_{
     border-radius: 20px;
+    background-color: #fdad4d;
 }
 #b_:hover{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -209,8 +296,11 @@ a {
     float: right;
     width: 83px;
     transform: rotate3d(1, 1, 1, 45deg);
-    margin-top: -95px;
     margin-right: 88px;
+    border: 6px solid white;
+    margin-top: -55px;
+    height: 50px;
+    border-radius: 5px;
 }
 
 #h6_{
@@ -234,7 +324,7 @@ a {
 }
 
 #sm_{
-    background-color: orange;
+    background-color: #fdad4d;
     color: white;
 }
  
@@ -273,8 +363,30 @@ a {
     font-weight: 700;
 }
 
+.ul_4 {
+  list-style: none;
+}
 
+.ul_4 li:before {
+  content: '✓';
+  margin-left: -11;
+  margin-right: 7px;
+}
 
+#arrow_{
+    width: 79px;
+    margin-left: -75px;
+    transform: rotate(3deg);
+}
+
+#text_{
+    color: white;
+    transform: rotate(332deg);
+    margin: -3px;
+    margin-right: 51px;
+    margin-left: -157px;
+
+}
 
 .pricingTable {
     text-align: center;
@@ -300,7 +412,7 @@ a {
 
 .pricingTable .price-value {
     font-size: 35px;
-    color: #ff9624;
+    color: #fdad4d;
     transition: all .5s ease 0s;
     font-weight: 800;
 }
@@ -363,7 +475,7 @@ a {
     height: 45px;
     border: none;
     border-radius: 20px;
-    background-color: #318ccd;
+    background-color: #4576d1;
     color: white;
 }
 
@@ -373,7 +485,7 @@ a {
 }
 
 #span{
-    color: 318ccd;
+    color: #4576ce;
 }
 
 .h3__{
@@ -384,6 +496,15 @@ a {
 #img_{
     width: 520px;
 }
+
+#hand_{
+
+    width: 739px;
+    padding-top: 276px;
+    margin: -283px;
+    transform: rotateZ(358deg);
+    
+}
 /*End of Connect*/
 
 /*Contact*/
@@ -392,7 +513,7 @@ a {
     height: 45px;
     border: none;
     border-radius: 20px;
-    background-color: orange;
+    background-color: #fdad4d;
     color: white;
     margin: 40px;
 }
@@ -436,6 +557,20 @@ a {
     border-radius: 20px;
 }
 /*End of Contact*/
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: #E0E0E0;
+}
+#nav_footer{
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 12px;
+    background-color: #fdad4d !important;
+    color: white;
+}
 
 /*Footer*/
 #bg__{
@@ -446,6 +581,12 @@ a {
     text-decoration: none;
 }
 /*End Of Footer*/
+
+#contact_{
+    text-align: center;
+        margin-top: -195px;
+        border-radius: 50px;
+}
 @media screen and (max-width: 896px) {
     .t_ {
         display: none;
@@ -459,25 +600,38 @@ a {
         height: 60px;
         color: white;
         display: table;
-      
     }
 
     .mail_ {
-        
         margin-right: 3px;
         border: none;
         width: 368px;
         height: 60px;
-        
     }
 
     .comment_ {
         border: none;
         width: 10cm;
         padding-bottom: 120px;
-      
     }
+
         .t1_{
             display: none;
-        }
+    }
+
+     #arrow_{
+        display: none;
+    }
+
+     #text_{
+        display: none;
+    }
+
+    #hand_{
+    width: 451px;
+    padding-top: -14px;
+    margin: -16px;
+    margin-top: -333px;
+
+    }
 }
