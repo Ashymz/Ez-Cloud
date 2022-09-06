@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Palanquin:wght@600;700&family=Roboto+Condensed:ital@1&display=swap');
 body{
    background-color: #4b7cd7!important;
    
@@ -187,7 +188,7 @@ a {
 #h1__{
     text-align: center;
     color: #fff;
-    font-weight: 800;
+    font-family: 'Fredoka One', cursive;
 }
 #img_{
     width: 650px !important;
@@ -204,14 +205,14 @@ a {
     width: 47px;
     height: 46px;
     margin-right: 2rem;
-    font-weight: 800;
+    font-weight: 700;
     color: coral;
 }
 
 #p_1{
     color: white;
     font-size: larger;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .t_{
@@ -479,6 +480,7 @@ a {
     border-radius: 20px;
     background-color: #4576d1;
     color: white;
+    font-family: 'Fredoka One', cursive;
 }
 
 .btn_6:hover{
@@ -492,7 +494,8 @@ a {
 
 .h3__{
     font-size: 33px;
-        font-weight: 700;
+    font-weight: 700;
+    font-family: 'Fredoka One', cursive;
 }
 
 #img_{
@@ -521,21 +524,22 @@ a {
 }
 
 #h1_1{
-    margin-bottom: 50px;
+    margin-bottom: 31px;
     text-align: center;
     font-size: 37px;
     font-weight: 800;
-    color: #318ccd;
+    font-family: 'Fredoka One', cursive;
+    color: #4576d1;
 }
 
 .name_{
     margin: 10px;
     margin-left: -233px;
     border: none;
-    background: lightblue;
+    background: #cae7fd;
     width: 412px;
     height: 60px;
-    color: white;
+    color: #82a6de !important;
     border-radius: 20px;
 }
 
@@ -543,7 +547,7 @@ a {
     margin: 10px;
     margin-right: -233px;
     border: none;
-    background: lightblue;
+    background: #cae7fd;
     width: 412px;
     height: 60px;
     color: white;
@@ -552,8 +556,10 @@ a {
 
 .comment_{
     border: none;
-    background: lightblue;
+    background: #cae7fd;
     width: 23cm;
+    padding: 23px;
+    padding-left: 0px;
     padding-bottom: 120px;
     color: white;
     border-radius: 20px;
@@ -586,15 +592,57 @@ a {
 
 #contact_{
     text-align: center;
-        margin-top: -195px;
-        border-radius: 50px;
+    margin-top: -195px;
+    border-radius: 50px;
 }
 
 .comment_::placeholder {
-    padding-left: 10px !important;
+    padding: 40px !important;
+    padding-top: 10px !important;
+    margin-top: 30px;
 
 }
 
+.name_::placeholder{
+     padding: 30px;
+}
+
+.mail_::placeholder{
+    padding: 30px !important;
+}
+
+#quote{
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding-top: -4px;
+    margin: auto;
+    padding: 2px;
+    font-weight: 800;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: -20px;
+    transform: rotateZ(180deg);
+    background-color: orange;
+
+   }
+
+   #quote1{
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding-top: -4px;
+    margin: auto;
+    padding: 2px;
+    font-weight: 800;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: -20px;
+    transform: rotateZ(180deg);
+    background-color: #4576d1;
+   }
 @media screen and (max-width: 896px) {
     .t_ {
         display: none;
@@ -650,10 +698,10 @@ a {
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-color: white;
-    width: 127px;
+    width: 104px;
     transform: rotate(90deg);
-    margin-left: -53px;
-    margin-top: 71px;
+    margin-left: -42px;
+    margin-top: 60px;
     opacity: 0.6;
 }
 
