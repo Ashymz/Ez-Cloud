@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Palanquin:wght@600;700&family=Quicksand:wght@300&family=Roboto+Condensed:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Palanquin:wght@600;700&family=Roboto+Condensed:ital@1&display=swap');
 body{
    background-color: #4b7cd7!important;
@@ -23,6 +24,7 @@ body{
 .navbar-nav{
     color: #fff;
     font-weight: 600;
+    padding-right: 13px;
 }
 
 .nav-item{
@@ -141,6 +143,7 @@ a {
     font-size: 37px;
     font-weight: 800;
     color: #318ccd;
+    font-family: 'Fredoka One', cursive;
     /*font-family: cursive;*/
 }
 #ct_{
@@ -308,7 +311,7 @@ a {
 
 #h6_{
     background: #093578ed;
-    border-radius: 9px 9px 0px 0px;
+    border-radius: 18px 18px 0px 0px;
     padding: 10px;
     font-weight: 800;
     color: white;
@@ -348,7 +351,7 @@ a {
     padding-top: 18px;
     font-size: 13px;
     font-weight: 700;
-    padding-bottom: 11px;
+    padding-bottom: 11px; 
 }
 
 #ul_1{
@@ -357,6 +360,7 @@ a {
     padding-top: 18px;
     font-size: 13px;
     font-weight: 700;
+    color: #093578ed;
 }
 
 #ul_2{
@@ -364,6 +368,7 @@ a {
     padding-top: 8px;
     font-size: 13px;
     font-weight: 700;
+    color: #093578ed;
 }
 
 .ul_4 {
@@ -444,6 +449,7 @@ a {
     background: #050d9cc8;
     transition: all .3s ease 0s;
     text-decoration: none;
+     font-family: 'Fredoka One', cursive;;
 }
 
 @media screen and (max-width:990px) {
@@ -704,5 +710,10 @@ a {
     margin-top: 60px;
     opacity: 0.6;
 }
+
+    #pricing_card{
+        width: 350px;
+        margin: auto;
+    }
 
 }
